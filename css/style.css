@@ -56,7 +56,7 @@ main{
 }
 
 
-/* navigationslinie */
+/* Navigationslinie */
 header{
     background-color: none; 
     display: flex; 
@@ -75,7 +75,7 @@ header{
     aspect-ratio: 1/1;  
 }
 
-/* hero */
+/* Hero */
 .hero-img {
     background-image: url("../img/solopgang_hero.svg");
     background-position: center;
@@ -98,8 +98,15 @@ header{
    width: 92px;
    padding-bottom: 2px;
 }
-
-/* forside */
+/* Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+}
+.e-mail{
+    padding-left: 5px;
+}
+/* Forside */
 .main-forside {
     margin: 20px;
 }
@@ -153,7 +160,7 @@ header{
         color:#000000; 
  }
 
-/*pladskort-side*/
+/*Pladskort-side*/
  .iframe {
     border-width: 0px;
  }
