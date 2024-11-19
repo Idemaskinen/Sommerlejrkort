@@ -107,7 +107,6 @@ header{
 .kort-familie-box {
     margin: 30px;
     display: flex; 
-    padding-left: 6px; 
 }
 .familie-med-pin{
     height: 160.57px;
@@ -133,7 +132,6 @@ header{
 .tilfoej-familie-box{
     margin: 30px;
     display: flex;
-    padding-left: 6px;
 }
  .familie-med-plus{
     height: 160.57px;
