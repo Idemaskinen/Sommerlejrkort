@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: none; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navlogo {
+    height: 30px;
+    aspect-ratio: 1/1;
+}
+    
+h2{
+    text-align: center;
+    color:  #06F;
+    font-family: Junegull;
+    font-size: 19px;
+    font-weight: 200;
+    font-style: normal;
+}
+.sommerlejrwiki {
+    height: 30px;
+    aspect-ratio: 1/1;
+  
+}
+
+.hero-img {
+    background-image: url("../img/solopgang_hero.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position-y: bottom;  
+}
+
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+h1 {
+    text-align: left;
+    color:  #06F;
+    font-family: Junegull;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 40px;
+    padding-left: 12px;
+
+}
+
+.hero-logo {
+    height: 90px;
+    padding-left: 10px;
+
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-forside {
+    margin: 20px;
+}
+
+button{
+    margin-top: 90px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 7px 15px;
+    text-align:center;
+    text-decoration: none;
+    font-family: Junegull;
+    font-style: normal;
+    font-size: 16px;
+    }
+
+.kort-familie-box {
+    margin-top: 20px;
+    margin-right: 30px;
+    display: flex;
+    padding: 20px;
+}
+.familie-med-pin{
+    height: 150px;
+ }
+ .kort-knap {
+    background-color: #06F;
+ }
+ .kort-knap:hover {
+    background-color:#B7F9F6;
+    color:#06F;
+ }
+
+.tilfoej-familie-box{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    padding: 20px;
+}
+ .familie-med-plus{
+    height: 150px;
+ }
+ .tilfoej-knap {
+    background-color:#FF0033;
+ }
+.tilfoej-knap:hover {
+        background-color:#faa8a8;
+        color:#FF0033; 
+ }
+
+h4{
+margin: 0px;
+}
+.iframe {
+   border-width: 0px;
+}
+
