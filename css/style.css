@@ -1,14 +1,12 @@
 /* generel styling */
 body{
     margin: 0;
-}
-p{
     color: #000;
     font-family: "Futura Bk";
-    font-size: 16px;
-    font-style: normal;
-    line-height: 20px;
+    font-size: 18px;
+    font-style: normal;  
 }
+
 h1 {
     text-align: left;
     color:  rgb(6, 6, 6);
@@ -113,7 +111,6 @@ footer{
 .e-mail{
     padding-left: 5px;
 }
-/* Forside */
 
 /* Nav til kort */
 .kort-familie-box {
@@ -227,10 +224,76 @@ footer{
     to {opacity:1 ;}
   }
 
-/*Pladskort-side m pdf*/
- .iframe {
-    border-width: 0px;
- }
+/*Tilføj boenhed-siden*/
+/*Overordnet styling af formular*/
+form{
+    background-color: #def5f7;
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+    align-items: center;
+}
+input[type=navn], input[type=alder], select, textarea{
+    padding: 0.5em;
+    border-radius: 15px;
+    border-color: #FF0033; 
+}
+/*Feltet med boenhed*/
+select{
+    cursor: pointer;
+}
+/*Felter til navne og aldre*/
+.over-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navn-og-alder{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.alder{
+    margin-left: 10px;
+}
+input[type=navn]{
+    width: 190px;
+}
+input[type=alder]{
+    width: 50px;
+}
+
+textarea{
+    margin-left: 5px
+
+}
+
+#om-os{
+    color: #000;
+    font-family: "Futura Bk";
+    font-size: 16px;
+    font-style: normal;  
+} 
+
+input[type=submit]{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color:#FF0033;
+    padding: 7px 15px;
+    text-align:center;
+    text-decoration: none;
+    font-family: Junegull;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 15px;
+}
+input[type=submit]:hover {
+    background-color:#faa8a8;
+    color:#000000; 
+}
+
+
 
 
 

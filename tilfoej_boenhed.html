@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilføj boenhed GCS 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <!-- navigationslinie -->
+ <header>
+    <a  href="index.html">  
+      <img class="nav-logo" src="img\Nav_logo.svg" alt="Logo:Home"> 
+    </a>
+    <h2>Sommerlejrkort</h2>
+    <a  href="https://medlem.giftedchildren.dk/landingpage">
+      <img class="sommerlejrwiki" src="img\sommerlejrwiki.svg" alt="i:Sommerlejrwiki">
+    </a>
+ </header> 
+
+ <!-- Hero -->
+ <div class="hero-img">
+    <div class="hero-content">
+      <h1> BLIV<br>FUNDET </h1>
+    </div>  
+ </div>
+
+ <!--Main-->
+ <main class="centreret-box">
+    <p class="centreret-tekst">Udfyld formularen med din families oplysninger 
+                               og bliv tilføjet kortet i løbet af 1-3 dage.
+    </p>
+    <form action="">
+      <!--dropdown menu med boenheder-->
+      <div class="dropdown-boenhed">
+        <label for="boenhed"> <h3>BOENHED</h3></label>
+        <select id="boenhed">
+          <option value="0" selected="true" disabled>Vælg boenhed</option>
+          <option value="1">Telt</option>
+          <option value="2">Campingvogn</option>
+          <option value="3">Camper</option>
+          <option value="4">Hytte</option>
+        </select>
+      </div><br>
+      <!--felter til navne og aldre-->
+      <!--overboks til navne og aldre-->
+      <div class="over-box">
+        <!--venstre box med 3 navn+alder-->
+        <div class="venstre-box">
+          <div class="navn-og-alder">
+            <div class="navn">
+              <label for="navn"><h3>NAVN</h3></label>
+              <input type="navn">
+            </div>
+            <div class="alder">
+              <label for="alder"><h3>ALDER</h3></label>
+              <input type="alder">
+            </div>
+          </div>
+          <div class="navn-og-alder">
+            <div class="navn">
+              <label for="navn"><h3>NAVN</h3></label>
+              <input type="navn">
+            </div>
+            <div class="alder">
+              <label for="alder"><h3>ALDER</h3></label>
+              <input type="alder">
+            </div>
+          </div>
+          <div class="navn-og-alder">
+            <div class="navn">
+              <label for="navn"><h3>NAVN</h3></label>
+              <input type="navn">
+            </div>
+            <div class="alder">
+              <label for="alder"><h3>ALDER</h3></label>
+              <input type="alder">
+            </div>
+          </div>
+        </div>
+        <!--højre box med 3 navn+alder-->
+        <div class="højre-box">
+          <div class="navn-og-alder">
+            <div class="navn">
+              <label for="navn"><h3>NAVN</h3></label>
+              <input type="navn">
+            </div>
+            <div class="alder">
+              <label for="alder"><h3>ALDER</h3></label>
+              <input type="alder">
+            </div>
+          </div>
+          <div class="navn-og-alder">
+            <div class="navn">
+              <label for="navn"><h3>NAVN</h3></label>
+              <input type="navn">
+            </div>
+            <div class="alder">
+              <label for="alder"><h3>ALDER</h3></label>
+              <input type="alder">
+            </div>
+          </div>
+          <div class="navn-og-alder">
+            <div class="navn">
+              <label for="navn"><h3>NAVN</h3></label>
+              <input type="navn">
+            </div>
+            <div class="alder">
+              <label for="alder"><h3>ALDER</h3></label>
+              <input type="alder">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Felt til "om os" tekst-->
+      <label class="om-os" for="om-os"><h3>OM OS</h3></label>
+      <textarea id="om-os" cols="28" rows="10" ></textarea><br>
+      <!--send-knap-->
+      <input type="submit" name="submit" value="SEND FORMULAR">
+    </form>
+
+ </main>
+ 
+ <!--Footer-->
+ <footer>
+    <p>Kontakt: </p>
+    <a class="e-mail" href="mailto:Sommerlejrkort@unobtainium.dk">
+      <p>Sommerlejrkort@unobtainium.dk</p>
+    </a>
+ </footer>
+</body>
+
+</html>
