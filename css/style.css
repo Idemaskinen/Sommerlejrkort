@@ -45,6 +45,7 @@ button{
     font-family: Junegull;
     font-style: normal;
     font-size: 16px;
+    cursor: pointer;
 }
 main{
     display: flex;
@@ -287,6 +288,7 @@ input[type=submit]{
     font-style: normal;
     font-size: 16px;
     margin-top: 15px;
+    cursor: pointer;
 }
 input[type=submit]:hover {
     background-color:#faa8a8;
