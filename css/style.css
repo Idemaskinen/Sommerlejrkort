@@ -165,12 +165,67 @@ footer{
         color:#000000; 
  }
 
-/*Pladskort-side m img*/
-
-.pladskort{
+/*Pladskort-side*/
+.kort-baggrund-box{
+    position:relative; 
+    width: 100%; 
     max-width: 800px;
 }
-
+.pladskort{
+    width: 100%;
+}
+/*popup-knappen*/
+.popup{
+  position:absolute;
+  bottom: 46.2%; 
+  right: 25.3%; 
+  z-index: 2;
+  display: inline-block;
+  cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   background-color: none;
+   padding: none;
+  }
+  .rød-pin{
+    width: 15px;
+  }
+  /* Selve popup'en */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #ffffff;
+    color: #000000;
+    border-style: solid;
+    border-color: #FF0033;
+    border-width: 1px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  .boenhed{
+    padding-top: 15px;
+  }
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
 
 /*Pladskort-side m pdf*/
  .iframe {
