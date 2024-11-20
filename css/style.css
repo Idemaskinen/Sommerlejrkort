@@ -51,7 +51,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
 }
 .centreret-tekst{
     text-align: center;
@@ -114,20 +114,20 @@ footer{
 
 /* Nav til kort */
 .kort-familie-box {
-    margin: 30px;
+    margin: 15px;
     display: flex; 
 }
 .familie-med-pin{
-    height: 160.57px;
-    padding-right: 10px;
+    height: 185.09px;
+    padding-right: 5px;
  }
  .kort-knap-box {
     width: 125px;
     text-align: right;
  }
  .kort-knap-tekst{
-    margin-top: 10px;
-    margin-bottom: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
  }
  .kort-knap {
     background-color: #06F;
@@ -143,16 +143,16 @@ footer{
     display: flex;
 }
  .familie-med-plus{
-    height: 160.57px;
-    padding-left: 10px;
+    height: 185.09px;
+    padding-left: 5px;
  }
  .tilfoej-knap-box{
     width: 125px;
     text-align: left;
  }
  .tilfoej-knap-tekst{
-    margin-top: 10px;
-    margin-bottom: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
  }
  .tilfoej-knap {
     background-color:#FF0033;
