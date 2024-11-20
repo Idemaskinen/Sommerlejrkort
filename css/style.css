@@ -53,6 +53,13 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+}
+.centreret-tekst{
+    text-align: center;
+}
+.centreret-box{
+    flex-direction: column;
 }
 
 
@@ -107,9 +114,7 @@ footer{
     padding-left: 5px;
 }
 /* Forside */
-.main-forside {
-    margin: 20px;
-}
+
 /* Nav til kort */
 .kort-familie-box {
     margin: 30px;
@@ -160,7 +165,14 @@ footer{
         color:#000000; 
  }
 
-/*Pladskort-side*/
+/*Pladskort-side m img*/
+
+.pladskort{
+    max-width: 800px;
+}
+
+
+/*Pladskort-side m pdf*/
  .iframe {
     border-width: 0px;
  }
